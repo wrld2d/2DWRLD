@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Веб-приложение</title>
+    <title>2DWRLD</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -43,11 +43,11 @@
                 <span class="close" onclick="closePopup('anime-popup')">&times;</span>
             </div>
 
-            <p style="font-size: 40px; font-weight: 900; text-align: center; margin: 10px;">Аниме-тянки</p>
+            <p style="font-size: 40px; font-weight: 900; text-align: center; margin: 10px; ">Аниме-тянки</p>
         
             <div class="function-button">
-                <button id="btn1">Аниме-тянки без 18+</button>
-                <button id="btn2">Аниме-тянки с 18+</button>
+                <p id="btn1">Аниме-тянки без 18+</p>
+                <p id="btn2">Аниме-тянки с 18+</p>
             </div>
 
             <div id="сontent-the-photos" class="сontent-the-photos">
@@ -232,8 +232,8 @@
             <p style="font-size: 40px; font-weight: 900; text-align: center; margin: 10px;">3DWRLD</p>
         
             <div class="function-button">
-                <button id="btn3">Без обнаженного тела</button>
-                <button id="btn4">С обнаженным телом</button>
+                <p id="btn3">Без обнаженного тела</p>
+                <p id="btn4">С обнаженным телом</p>
             </div>
 
             <div id="сontent-the-photos3" class="сontent-the-photos">
@@ -281,11 +281,39 @@
 
     <div id="hentai-popup" class="popup">
         <div class="popup-content">
-            <span class="close" onclick="closePopup('hentai-popup')">&times;</span>
-            <video controls class="placeholder">
-                <source src="video-placeholder.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+
+            <div class="popup-header">
+                <div class="popup-logo">2DWRLD</div>
+                <span class="close" onclick="closePopup('hentai-popup')">&times;</span>
+            </div>
+
+            <div class="function-button">
+                <p id="button-videos">Хентай #1</p>
+                <p id="button-videos2">Хентай #2</p>
+            </div>
+            
+            <div id="сontent-the-videos" class="сontent-the-photos">
+                <div class="content-photos">
+                    <video controls class="placeholder">
+                        <source src="video-placeholder.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h2>Хентай №1</h2>
+                    <p>Описание</p>
+                </div>
+            </div>
+
+            <div id="сontent-the-videos2" class="сontent-the-photos">
+                <div class="content-photos">
+                    <video controls class="placeholder">
+                        <source src="video-placeholder.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h2>Хентай №2</h2>
+                    <p>Описание</p>
+                </div>
+            </div>
+
         </div>
     </div>
 
@@ -325,12 +353,12 @@
             <p style="font-size: 40px; font-weight: 900; text-align: center; margin: 10px;">Зайчик</p>
         
             <div class="function-button">
-                <button id="btn5">Катя</button>
-                <button id="btn6">Оля</button>
-                <button id="btn7">Полина</button>
+                <p id="ero-btn">Катя</p>
+                <p id="ero-btn2">Оля</p>
+                <p id="ero-btn3">Полина</p>
             </div>
 
-            <div id="сontent-the-photo5" class="сontent-the-photos">
+            <div id="сontent-the-ero" class="сontent-the-photos">
                 <div class="content-photos">
                     <img src="/content/game-ero/rabbit/katya1.png">
                     <img src="/content/game-ero/rabbit/katya2.png">
@@ -346,7 +374,7 @@
                 </div>
             </div>
 
-            <div id="сontent-the-photos6" class="сontent-the-photos">
+            <div id="сontent-the-ero2" class="сontent-the-photos">
                 <div class="content-photos">
                     <img src="/content/game-ero/rabbit/olya1.png">
                     <img src="/content/game-ero/rabbit/olya2.png">
@@ -366,7 +394,7 @@
                 </div>
             </div>
 
-            <div id="сontent-the-photos7" class="сontent-the-photos">
+            <div id="сontent-the-ero3" class="сontent-the-photos">
                 <div class="content-photos">
                     <img src="/content/game-ero/rabbit/polina1.png">
                     <img src="/content/game-ero/rabbit/polina2.png">
@@ -410,10 +438,10 @@
             <p style="font-size: 40px; font-weight: 900; text-align: center; margin: 10px;">Genshin Impact</p>
         
             <div class="function-button">
-                <button id="btn8">Ху Тао</button>
+                <p id="ero-btn4">Ху Тао</p>
             </div>
 
-            <div id="сontent-the-photos8" class="сontent-the-photos">
+            <div id="сontent-the-ero4" class="сontent-the-photos">
                 <div class="content-photos">
                     <img src="/content/game-ero/genshin-impact/Hu-Tao1.png">
                     <img src="/content/game-ero/genshin-impact/Hu-Tao2.png">
@@ -430,6 +458,17 @@
             </div>
         </div>
     </div>
+    <footer>
+        <a href="https://t.me/wrld2d">Telegram-канал 2DWRLD</a>
+        <br>
+        <a href="https://t.me/wrld2d18bot">Telegram-бот 2DWRLD</a>
+        <br>
+        <a href="https://t.me/wrld2d_admin">Поддержка</a>
+        <br>
+        <a href="https://t.me/wrld2dd">Наши проекты</a>
+        <br>
+        <a href="https://t.me/syrolix">Проект <b>Syrolix</b></a>
+    </footer>
 
     <script src="scripts.js"></script>
 </body>
