@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-приложение</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">2DWRLD</div>
+    </header>
+    <main>
+        <div class="categories-container">
+            <div class="category">
+                <h2>Категория фото</h2>
+                <div class="subcategory" onclick="openPopup('anime-popup')">Аниме-тянки</div>
+                <div class="subcategory" onclick="openPopup('loli-popup')">Лоли</div>
+                <div class="subcategory" onclick="openPopup('neuro-popup')">Нейро-тян</div>
+                <div class="subcategory" onclick="openPopup('3dwrld-popup')">3dwrld</div>
+            </div>
+            <div class="category">
+                <h2>Категория видео</h2>
+                <div class="subcategory" onclick="openVideoPopup('hentai-popup')">Хентай</div>
+                <div class="subcategory" onclick="openVideoPopup('gif-hentai-popup')">GIF-Хентай</div>
+                <div class="subcategory" onclick="openVideoPopup('video-codes-popup')">Видео по кодам</div>
+            </div>
+            <div class="category">
+                <h2>Категория игры</h2>
+                <div class="subcategory" onclick="openPopup('bunny-popup')">Зайчик</div>
+                <div class="subcategory" onclick="openPopup('genshin-popup')">Genshin Impact</div>
+            </div>
+        </div>
+    </main>
+
+    <!-- АНИМЕ-ТЯНКИ -->
+    
+    <div id="anime-popup" class="popup">
+        <div class="popup-content">
+
+            <div class="popup-header">
+                <div class="popup-logo">2DWRLD</div>
+                <span class="close" onclick="closePopup('anime-popup')">&times;</span>
+            </div>
+
+            <p style="font-size: 40px; font-weight: 900; text-align: center; margin: 10px;">Аниме-тянки</p>
+        
+            <div class="function-button">
+                <button id="btn1">Аниме-тянки без 18+</button>
+                <button id="btn2">Аниме-тянки с 18+</button>
+            </div>
+
+            <div id="сontent-the-photos" class="сontent-the-photos">
+                <div class="content-photos">
+                    <img src="/content/photos/anime-tyan/anime-tyan1.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan2.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan3.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan4.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan5.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan6.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan7.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan8.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan9.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan10.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan11.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan12.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan13.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan14.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan15.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan16.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan17.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan18.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan19.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan20.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan21.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan22.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan23.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan24.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan25.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan26.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan27.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan28.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan29.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan30.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan31.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan32.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan33.png">
+                    <img src="/content/photos/anime-tyan/anime-tyan34.png">
+                </div>
+            </div>
+
+            <div id="сontent-the-photos2" class="сontent-the-photos">
+                <div class="content-photos">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan1.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan2.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan3.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan4.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan5.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan6.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan7.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan8.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan9.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan10.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan11.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan12.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan13.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan14.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan15.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan16.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan17.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan18.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan19.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan20.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan21.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan22.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan23.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan24.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan25.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan26.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan27.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan28.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan29.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan30.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan31.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan32.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan33.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan34.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan35.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan36.png">
+                    <img src="/content/photos/anime-tyan/anime-18-tyan37.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ЛОЛИ -->
+
+    <div id="loli-popup" class="popup">
+        <div class="popup-content">
+
+            <div class="popup-header">
+                <div class="popup-logo">2DWRLD</div>
+                <span class="close" onclick="closePopup('loli-popup')">&times;</span>
+            </div>
+
+            <p style="font-size: 40px; font-weight: 900; text-align: center; margin: 10px;">Лоли</p>
+
+            <div class="сontent-the-photos" style="display: block;">
+                <div class="content-photos">
+                    <img src="/content/photos/loli/loli1.png">
+                    <img src="/content/photos/loli/loli2.png">
+                    <img src="/content/photos/loli/loli3.png">
+                    <img src="/content/photos/loli/loli4.png">
+                    <img src="/content/photos/loli/loli5.png">
+                    <img src="/content/photos/loli/loli6.png">
+                    <img src="/content/photos/loli/loli7.png">
+                    <img src="/content/photos/loli/loli8.png">
+                    <img src="/content/photos/loli/loli9.png">
+                    <img src="/content/photos/loli/loli10.png">
+                    <img src="/content/photos/loli/loli11.png">
+                    <img src="/content/photos/loli/loli12.png">
+                    <img src="/content/photos/loli/loli13.png">
+                    <img src="/content/photos/loli/loli14.png">
+                    <img src="/content/photos/loli/loli15.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- НЕЙРО-ТЯНКИ -->
+
+    <div id="neuro-popup" class="popup">
+        <div class="popup-content">
+
+            <div class="popup-header">
+                <div class="popup-logo">2DWRLD</div>
+                <span class="close" onclick="closePopup('neuro-popup')">&times;</span>
+            </div>
+            <p style="font-size: 40px; font-weight: 900; text-align: center; margin: 10px;">Нейро-тян</p>
+
+            <div class="сontent-the-photos" style="display: block;">
+                <div class="content-photos">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan1.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan2.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan3.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan4.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan5.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan6.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan7.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan8.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan9.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan10.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan11.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan12.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan13.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan14.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan15.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan16.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan17.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan18.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan19.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan20.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan21.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan22.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan23.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan24.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan25.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan26.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan27.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan28.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan29.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan30.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan31.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan32.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan33.png">
+                    <img src="/content/photos/neuro-tyan/neuro-tyan34.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3DWRLD -->
+
+    <div id="3dwrld-popup" class="popup">
+        <div class="popup-content">
+
+            <div class="popup-header">
+                <div class="popup-logo">2DWRLD</div>
+                <span class="close" onclick="closePopup('3dwrld-popup')">&times;</span>
+            </div>
+
+            <p style="font-size: 40px; font-weight: 900; text-align: center; margin: 10px;">3DWRLD</p>
+        
+            <div class="function-button">
+                <button id="btn3">Без обнаженного тела</button>
+                <button id="btn4">С обнаженным телом</button>
+            </div>
+
+            <div id="сontent-the-photos3" class="сontent-the-photos">
+                <div class="content-photos">
+                    <img src="content/photos/3dwrld/3dwrld1.png">
+                    <img src="content/photos/3dwrld/3dwrld2.png">
+                    <img src="content/photos/3dwrld/3dwrld3.png">
+                    <img src="content/photos/3dwrld/3dwrld4.png">
+                    <img src="content/photos/3dwrld/3dwrld5.png">
+                    <img src="content/photos/3dwrld/3dwrld6.png">
+                    <img src="content/photos/3dwrld/3dwrld7.png">
+                    <img src="content/photos/3dwrld/3dwrld8.png">
+                    <img src="content/photos/3dwrld/3dwrld9.png">
+                    <img src="content/photos/3dwrld/3dwrld10.png">
+                    <img src="content/photos/3dwrld/3dwrld11.png">
+                    <img src="content/photos/3dwrld/3dwrld12.png">
+                    <img src="content/photos/3dwrld/3dwrld13.png">
+                    <img src="content/photos/3dwrld/3dwrld14.png">
+                    <img src="content/photos/3dwrld/3dwrld15.png">
+                    <img src="content/photos/3dwrld/3dwrld16.png">
+                    <img src="content/photos/3dwrld/3dwrld17.png">
+                    <img src="content/photos/3dwrld/3dwrld18.png">
+                    <img src="content/photos/3dwrld/3dwrld19.png"> 
+                </div>
+            </div>
+
+            <div id="сontent-the-photos4" class="сontent-the-photos">
+                <div class="content-photos">
+                    <img src="content/photos/3dwrld/3d-18-wrld1.png">
+                    <img src="content/photos/3dwrld/3d-18-wrld2.png">
+                    <img src="content/photos/3dwrld/3d-18-wrld3.png">
+                    <img src="content/photos/3dwrld/3d-18-wrld4.png">
+                    <img src="content/photos/3dwrld/3d-18-wrld5.png">
+                    <img src="content/photos/3dwrld/3d-18-wrld6.png">
+                    <img src="content/photos/3dwrld/3d-18-wrld7.png">
+                    <img src="content/photos/3dwrld/3d-18-wrld8.png">
+                    <img src="content/photos/3dwrld/3d-18-wrld9.png">
+                    <img src="content/photos/3dwrld/3d-18-wrld10.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ХЕНТАЙ -->
+
+    <div id="hentai-popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('hentai-popup')">&times;</span>
+            <video controls class="placeholder">
+                <source src="video-placeholder.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- GIF-ХЕНТАЙ -->
+
+    <div id="gif-hentai-popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('gif-hentai-popup')">&times;</span>
+            <video controls class="placeholder">
+                <source src="video-placeholder.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- ВИДЕО ПО КОДАМ -->
+
+    <div id="video-codes-popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('video-codes-popup')">&times;</span>
+            <video controls class="placeholder">
+                <source src="video-placeholder.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- ЗАЙЧИК -->
+    
+    <div id="bunny-popup" class="popup">
+        <div class="popup-content">
+
+            <div class="popup-header">
+                <div class="popup-logo">2DWRLD</div>
+                <span class="close" onclick="closePopup('bunny-popup')">&times;</span>
+            </div>
+            <p style="font-size: 40px; font-weight: 900; text-align: center; margin: 10px;">Зайчик</p>
+        
+            <div class="function-button">
+                <button id="btn5">Катя</button>
+                <button id="btn6">Оля</button>
+                <button id="btn7">Полина</button>
+            </div>
+
+            <div id="сontent-the-photo5" class="сontent-the-photos">
+                <div class="content-photos">
+                    <img src="/content/game-ero/rabbit/katya1.png">
+                    <img src="/content/game-ero/rabbit/katya2.png">
+                    <img src="/content/game-ero/rabbit/katya3.png">
+                    <img src="/content/game-ero/rabbit/katya4.png">
+                    <img src="/content/game-ero/rabbit/katya5.png">
+                    <img src="/content/game-ero/rabbit/katya6.png">
+                    <img src="/content/game-ero/rabbit/katya7.png">
+                    <img src="/content/game-ero/rabbit/katya8.png">
+                    <img src="/content/game-ero/rabbit/katya9.png">
+                    <img src="/content/game-ero/rabbit/katya10.png">
+                    <img src="/content/game-ero/rabbit/katya11.png">
+                </div>
+            </div>
+
+            <div id="сontent-the-photos6" class="сontent-the-photos">
+                <div class="content-photos">
+                    <img src="/content/game-ero/rabbit/olya1.png">
+                    <img src="/content/game-ero/rabbit/olya2.png">
+                    <img src="/content/game-ero/rabbit/olya3.png">
+                    <img src="/content/game-ero/rabbit/olya4.png">
+                    <img src="/content/game-ero/rabbit/olya5.png">
+                    <img src="/content/game-ero/rabbit/olya6.png">
+                    <img src="/content/game-ero/rabbit/olya7.png">
+                    <img src="/content/game-ero/rabbit/olya8.png">
+                    <img src="/content/game-ero/rabbit/olya9.png">
+                    <img src="/content/game-ero/rabbit/olya10.png">
+                    <img src="/content/game-ero/rabbit/olya11.png">
+                    <img src="/content/game-ero/rabbit/olya12.png">
+                    <img src="/content/game-ero/rabbit/olya13.png">
+                    <img src="/content/game-ero/rabbit/olya14.png">
+                    <img src="/content/game-ero/rabbit/olya15.png">
+                </div>
+            </div>
+
+            <div id="сontent-the-photos7" class="сontent-the-photos">
+                <div class="content-photos">
+                    <img src="/content/game-ero/rabbit/polina1.png">
+                    <img src="/content/game-ero/rabbit/polina2.png">
+                    <img src="/content/game-ero/rabbit/polina3.png">
+                    <img src="/content/game-ero/rabbit/polina4.png">
+                    <img src="/content/game-ero/rabbit/polina5.png">
+                    <img src="/content/game-ero/rabbit/polina6.png">
+                    <img src="/content/game-ero/rabbit/polina7.png">
+                    <img src="/content/game-ero/rabbit/polina8.png">
+                    <img src="/content/game-ero/rabbit/polina9.png">
+                    <img src="/content/game-ero/rabbit/polina10.png">
+                    <img src="/content/game-ero/rabbit/polina11.png">
+                    <img src="/content/game-ero/rabbit/polina12.png">
+                    <img src="/content/game-ero/rabbit/polina13.png">
+                    <img src="/content/game-ero/rabbit/polina14.png">
+                    <img src="/content/game-ero/rabbit/polina15.png">
+                    <img src="/content/game-ero/rabbit/polina16.png">
+                    <img src="/content/game-ero/rabbit/polina17.png">
+                    <img src="/content/game-ero/rabbit/polina18.png">
+                    <img src="/content/game-ero/rabbit/polina19.png">
+                    <img src="/content/game-ero/rabbit/polina20.png">
+                    <img src="/content/game-ero/rabbit/polina21.png">
+                    <img src="/content/game-ero/rabbit/polina22.png">
+                    <img src="/content/game-ero/rabbit/polina23.png">
+                    <img src="/content/game-ero/rabbit/polina24.png">
+                    <img src="/content/game-ero/rabbit/polina25.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- GENSIN IMPACT -->
+
+    <div id="genshin-popup" class="popup">
+        <div class="popup-content">
+
+            <div class="popup-header">
+                <div class="popup-logo">2DWRLD</div>
+                <span class="close" onclick="closePopup('genshin-popup')">&times;</span>
+            </div>
+            <p style="font-size: 40px; font-weight: 900; text-align: center; margin: 10px;">Genshin Impact</p>
+        
+            <div class="function-button">
+                <button id="btn8">Ху Тао</button>
+            </div>
+
+            <div id="сontent-the-photos8" class="сontent-the-photos">
+                <div class="content-photos">
+                    <img src="/content/game-ero/genshin-impact/Hu-Tao1.png">
+                    <img src="/content/game-ero/genshin-impact/Hu-Tao2.png">
+                    <img src="/content/game-ero/genshin-impact/Hu-Tao3.png">
+                    <img src="/content/game-ero/genshin-impact/Hu-Tao4.png">
+                    <img src="/content/game-ero/genshin-impact/Hu-Tao5.png">
+                    <img src="/content/game-ero/genshin-impact/Hu-Tao6.png">
+                    <img src="/content/game-ero/genshin-impact/Hu-Tao7.png">
+                    <img src="/content/game-ero/genshin-impact/Hu-Tao8.png">
+                    <img src="/content/game-ero/genshin-impact/Hu-Tao9.png">
+                    <img src="/content/game-ero/genshin-impact/Hu-Tao10.png">
+                    <img src="/content/game-ero/genshin-impact/Hu-Tao11.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
