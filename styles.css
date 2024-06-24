@@ -8,12 +8,18 @@
     src: url(font-family/SFProText-Medium.ttf);
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
 body {
-    margin: 0;
     font-family: San;
     background-color: #1e1e1e;
     color: #fff;
-    line-height: 1.6;
+
 }
 
 header {
@@ -41,7 +47,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 60px);
+    margin-top: 50px;
 }
 
 .categories-container {
@@ -95,6 +101,7 @@ h2 {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 1000;
+    margin-top: 30px;
 }
 
 .popup-content {
@@ -120,6 +127,7 @@ h2 {
     justify-content: space-around;
     top: 0;
     left: 0;
+    margin-top: 20px;
 }
 
 
@@ -167,18 +175,22 @@ h2 {
     justify-content: center;
 }
 
-#btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8 {
+#btn1, #btn2, #btn3, #btn4, #button-videos, #button-videos2, #ero-btn, #ero-btn2, #ero-btn3, #ero-btn4 {
     margin: 5px;
-    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 15px;
     padding: 10px;
     border-radius: 10px;
     transition: 1s;
-    background-color: white;
+    background-color: gray;
 }
-#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover, #btn6:hover, #btn7:hover, #btn8:hover {
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #button-videos:hover,
+  #button-videos2:hover, #ero-btn:hover, #ero-btn2:hover, #ero-btn3:hover, #ero-btn4:hover {
     transition: 1s;
-    background-color: wheat;
+    background-color: black;
     font-weight: 900;
+    font-size: 16px;
 }
 
 .content-photos {
@@ -196,6 +208,17 @@ h2 {
     -moz-user-select: none;
     user-select: none;
     pointer-events: none;
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    color: gray;
+}
+a:hover {
+    color: white;
 }
 
 @media (max-width: 600px) {
