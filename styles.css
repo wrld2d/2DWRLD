@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Exotica';
-    src: url(/font-family/Exotica.otf);
+    src: url(font-family/Exotica.otf);
 }
 
 @font-face {
     font-family: 'San';
-    src: url(/font-family/SFProText-Medium.ttf);
+    src: url(font-family/SFProText-Medium.ttf);
 }
 
 body {
     margin: 0;
-    font-family: 'San', sans-serif;
+    font-family: San;
     background-color: #1e1e1e;
     color: #fff;
     line-height: 1.6;
@@ -27,7 +27,7 @@ header {
 .logo, .popup-logo {
     font-size: 24px;
     font-weight: bold;
-    font-family: 'Exotica', sans-serif;
+    font-family: Exotica;
     color: #ffa500;
     transition: all 0.3s ease;
 }
